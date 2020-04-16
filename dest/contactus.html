@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Learning Netlify - About Us</title>
+        <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <div class="jumbotron text-center">
+            <h1>Hello Netlify</h1>
+            <p>This is about us page</p> 
+          </div>
+        <div class="container">
+            <form name="contact" method="POST" data-netlify="true" action="/">
+                <p>
+                <label>Your Name: <input type="text" name="name" /></label>   
+                </p>
+                <p>
+                <label>Your Email: <input type="email" name="email" /></label>
+                </p>
+                <p>
+                <label>Your Role: <select name="role[]">
+                    <option value="Lead actor">Lead actor</option>
+                    <option value="Supporting role">Supporting role</option>
+                    <option value="Technical Staff">Technical Staff</option>
+                </select></label>
+                </p>
+                <p>
+                <label>Message: <textarea name="message"></textarea></label>
+                <label>Photo: <input type="file" name="photo"/></label>
+                
+                </p>
+                <p>
+                <button type="submit">Send</button>
+                </p>
+            </form>
+        </div>
+
+        <div class="container">
+            <a href="/index.html">Home</a>
+        </div>
+    </body>
+</html>
