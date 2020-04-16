@@ -1,3 +1,3 @@
 /aboutus /about
 /api/* https://jsonplaceholder.typicode.com/:splat 200
-/getworld /.netlify/functions/getworld.js 200
+/getworld /.netlify/functions/getworld/getworld.js 200
